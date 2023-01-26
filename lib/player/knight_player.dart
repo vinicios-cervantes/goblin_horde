@@ -6,7 +6,6 @@ class KnightPlayer extends SimplePlayer with ObjectCollision {
   KnightPlayer()
       : super(
           position: Vector2(tileSize * 5, tileSize * 5),
-          speed: 300,
           life: 10,
           size: Vector2(tileSize, tileSize),
           animation: SimpleDirectionAnimation(
